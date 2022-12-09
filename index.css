@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.firstcontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e38826;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+}
+.middlecontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #006970;
+}
+.lastcontent{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #004241;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+
+}
+
+.logo{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.3;
+    
+   
+
+}
+.circle i{
+    margin-top: 10px;
+    margin-left:  23px;
+    color: white;
+} 
+.heading{
+    width: 80%;
+    height: 25%;
+}
+.heading p{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 35px;
+}
+.content{
+    width: 80%;
+    height: 25%;
+}
+.content p{
+    font-size: 13px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.learnmore{
+    width: 80%;
+    height: 25%;
+}
+button{
+    margin-top: 14px;
+    padding: 12px;
+    border-radius: 30px;
+    border: transparent;
+    color: #e38826;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
